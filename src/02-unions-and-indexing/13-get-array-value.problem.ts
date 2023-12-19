@@ -1,6 +1,6 @@
 import { Equal, Expect } from "../helpers/type-utils";
 
-const fruits = ["apple", "banana", "orange"] as const;
+const fruits = ["apple", "banana", "orange"];
 
 /**
  * Todo: implement AppleOrBanana and Fruit
