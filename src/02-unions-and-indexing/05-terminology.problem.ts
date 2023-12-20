@@ -8,6 +8,13 @@
  * Which is which?
  */
 
+/**
+ * Todo: Which is which?
+ * reference: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html#discriminated-unions
+ * reference: https://www.typescriptlang.org/docs/handbook/enums.html
+ * 
+ * graphql error handling: https://www.notion.so/ichef/Error-Handling-f7087b4eba064f2bbd1121718df3a4e8
+ */
 type A =
   | {
       type: "a";

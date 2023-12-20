@@ -10,6 +10,10 @@ const parser3 = {
   extract: () => true,
 };
 
+/**
+ * Todo: implement GetParserResult
+ * reference: https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#inferring-within-conditional-types
+ */
 type GetParserResult<T> = unknown;
 
 type tests = [
