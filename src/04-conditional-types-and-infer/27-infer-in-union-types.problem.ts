@@ -9,7 +9,6 @@ const parser2 = () => "123";
 const parser3 = {
   extract: () => true,
 };
-type a = typeof parser1
 
 /**
  * Todo: implement GetParserResult
