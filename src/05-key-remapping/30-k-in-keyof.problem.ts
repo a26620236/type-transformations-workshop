@@ -6,6 +6,7 @@ interface Attributes {
   age: number;
 }
 
+// Use mapped type to transform the value's type from `T` to `() => T`
 type AttributeGetters = unknown;
 
 type tests = [

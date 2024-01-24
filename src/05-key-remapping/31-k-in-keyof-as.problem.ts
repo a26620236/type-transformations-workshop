@@ -6,6 +6,7 @@ interface Attributes {
   age: number;
 }
 
+// reference: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as
 type AttributeGetters = {
   [K in keyof Attributes]: () => Attributes[K];
 };

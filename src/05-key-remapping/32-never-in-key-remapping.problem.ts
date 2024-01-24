@@ -8,6 +8,7 @@ interface Example {
   groupId: string;
 }
 
+// filter out keys by producing `never` via a conditional type
 type OnlyIdKeys<T> = unknown;
 
 type tests = [
